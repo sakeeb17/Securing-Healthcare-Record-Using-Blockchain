@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#section-wrapper3 {
+    margin-top: 200px;
+    width: 100%;
+    padding: 10px;
+}
+
+.box-wrapper3 {
+    position: relative;
+    display: table;
+    width: 1100px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 30px;
+}
+
+.info-wrap3 {
+    width: 35%;
+    height: 572px;
+    padding: 40px;
+    float: left;
+    display: block;
+    border-radius: 30px 0 0 30px;
+    background: linear-gradient(144deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 49%);
+    color: #fff;
+}
+
+.info-title3 {
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.info-sub-title3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 17px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+
+.info-details3 {
+    list-style: none;
+    margin: 60px 0;
+}
+
+.info-details3 li {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.info-details3 li i {
+    background: #000000;
+    padding: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.info-details3 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info-details3 li a:hover {
+    color: #ffffff;
+}
+
+.social-icons3 {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons3 li {
+    display: inline-block;
+}
+
+.social-icons3 li i {
+    background: #000000;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 22%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social-icons3 li i:hover {
+    background: #fff;
+    color: #000000;
+}
+
+.form-wrap3 {
+    width: 65%;
+    float: right;
+    padding: 40px 25px 35px;
+    border-radius: 0 30px 30px 0;
+    background: #ecf0f3;
+}
+
+.form-title3 {
+    text-align: left;
+    margin-left: 23px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.form-fields3 {
+    display: table;
+    width: 100%;
+    padding: 15px 5px 5px;
+}
+
+.form-fields3 input,
+.form-fields3 textarea {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+    width: 100%;
+}
+
+.form-fields3 textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form-group3 {
+    width: 46%;
+    float: left;
+    padding: 0 30px;
+    margin: 14px 12px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.form-fields3 .form-group3:last-child {
+    width: 96%;
+}
+
+.submit-button3 {
+    width: 96%;
+    height: 60px;
+    margin: 0 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    background: #000000;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+
+.submit-button3:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+@media only screen and (max-width: 767px) {
+    .box-wrapper3 {
+        width: 100%;
+    }
+
+    .info-wrap3,
+    .form-wrap3 {
+        width: 100%;
+        height: inherit;
+        float: none;
+    }
+
+    .info-wrap3 {
+        border-radius: 30px 30px 0 0;
+    }
+
+    .form-wrap3 {
+        border-radius: 0 0 30px 30px;
+    }
+
+    .form-group3 {
+        width: 100%;
+        float: none;
+        margin: 25px 0;
+    }
+
+    .form-fields3 .form-group3:last-child, 
+    .submit-button3 {
+        width: 100%;
+    }
+
+    .submit-button3 {
+        margin: 10px 0;
+    }
+}

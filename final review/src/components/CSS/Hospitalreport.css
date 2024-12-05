@@ -1,0 +1,68 @@
+form7 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .form-container7 {
+    display: flex;
+    flex-direction: column;
+    width: 600px; /* Adjusted width for better spacing */
+    margin: 20px auto;
+    font-family: Arial, sans-serif; /* Common sans-serif font */
+    font-size: 16px; /* Standard text size */
+  }
+  
+  .form-group7 {
+    display: flex;
+    flex-direction: column; /* Stack labels and inputs vertically */
+    margin-bottom: 20px;
+  }
+  
+  .form-group7 label7 {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Makes labels bold */
+  }
+  
+  .form-group7 input,
+  .form-group7 select {
+    padding: 10px; /* More padding for input fields */
+    margin-bottom: 10px; /* Space after each input field */
+    border: 2px solid #ccc; /* Border color as in the image */
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  h3 {
+    margin-top: 40px;
+    margin-bottom: 10px; /* Space above section titles */
+    color: #333; /* Dark grey color for headers */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0056b3; /* A deep blue color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Extra space before the submit button */
+  }
+  
+  /* Specific styles for radio buttons and their labels */
+  .radio-group7 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-group7 input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 20px; /* Space before each radio button */
+  }
+  
+  .radio-group7 label7 {
+    margin-right: 20px; /* Space between radio button and its label */
+  }
+  

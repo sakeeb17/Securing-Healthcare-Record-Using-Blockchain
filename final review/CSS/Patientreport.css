@@ -1,0 +1,257 @@
+/* General Form Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-top:200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2.prh2, h3.prh3 {
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+label5 {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder {
+  color: #999;
+}
+
+.row5 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.row5 > div {
+  flex: 1;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.row5 > div:first-child {
+  padding-left: 0;
+}
+
+.row5 > div:last-child {
+  padding-right: 0;
+}
+
+/* Full-width row for single input fields */
+.row5.full-width {
+  flex-direction: column;
+}
+
+/* Smaller input fields for City, State, Zip */
+.row5 > div.half-width {
+  flex: 0 0 48%;
+}
+
+/* Margin adjustments for spacing between two half-width inputs */
+.row5 > div.half-width:not(:last-child) {
+  margin-right: 4%;
+}
+
+/* Unit text styling */
+.unit {
+  display: block;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 14px;
+  text-align: right;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  text-align: center;
+}
+
+input[type="radio"] {
+  margin: 0 auto;
+  display: block;
+}
+
+/* File Upload Styling */
+.file-upload {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 50px;
+  color: #999;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.file-upload input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-upload label5 {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  pointer-events: none;
+}
+/* Checkbox Group Styling for 2 Columns */
+
+
+
+/* Emergency Contact Section Styling */
+#emergency_first_name, #emergency_last_name, #relationship, #emergency_phone {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#emergency_phone::placeholder {
+  color: #999;
+}
+
+small {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-top: -18px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+/* Privacy Notice Styling */
+.privacy-notice {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.privacy-notice h3 {
+  color: #333;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.privacy-notice p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.terms {
+  margin-bottom: 20px;
+}
+
+.terms input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.terms label5 {
+  color: #666;
+  font-size: 14px;
+}
+
+.terms label5 a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.terms label5 a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button Styling */
+.submit-container5 {
+  text-align: center;
+}
+
+button5.prb {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button5.prb:hover {
+  background-color: #0056b3;
+}
+.prp{
+  font-weight: bold;
+}
+.alert {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+.alert button {
+  margin: 5px;
+}
